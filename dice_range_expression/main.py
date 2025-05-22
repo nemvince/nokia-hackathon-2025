@@ -69,7 +69,7 @@ def dice_range_expression(min_val: int, max_val: int) -> str:
                 dice_counts[die] = dice_counts.get(die, 0) + 1
             
             terms: List[str] = []
-            for die in sorted(dice_counts.keys(), reverse=True):
+            for die in sorted(dice_counts.keys()):
                 terms.append(f"{dice_counts[die]}d{die}")
 
             expr: str = "+".join(terms)
