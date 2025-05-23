@@ -31,7 +31,7 @@ def solve(line: str) -> str:
 
 def main() -> None:
     with open("input.txt", "r") as f:
-        lines = f.readlines()
+        lines = f.read().splitlines()
 
     for line in lines:
         if DEBUG:

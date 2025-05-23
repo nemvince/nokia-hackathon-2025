@@ -89,7 +89,7 @@ def dice_range_expression(min_val: int, max_val: int) -> str:
 
 def main() -> None:
     with open("input.txt", "r") as f:
-        lines = f.readlines()
+        lines = f.read().splitlines()
 
     for line in lines:
         a, b = map(int, line.strip().split())
