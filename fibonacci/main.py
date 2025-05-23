@@ -5,9 +5,10 @@
 # Purpose:  Generate a list of Fibonacci numbers divisible by 3 up to a given number N.
 # Runtime:  18.6ms ± 2.9ms over 1000 runs (tested with hyperfine on ThinkPad T480)
 
-# using lru_cache here seems to result in worse performance
+import os
 from typing import List
 
+DEBUG = os.environ.get("HACKATHON_DEBUG", "0") == "1"
 
 def fibonacci_up_to(N: int) -> list[int]:
     fib_numbers: List[int] = []
@@ -33,7 +34,10 @@ def main() -> None:
         lines = f.readlines()
 
     for line in lines:
-        print(solve(line))
+        if DEBUG:
+            print(f"{line.strip()} -> {solve(line)}")
+        else:
+            print(solve(line))
 
 if __name__ == "__main__":
     main()
