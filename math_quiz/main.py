@@ -55,3 +55,10 @@ print('5.: 150')
 # 54 = 2 * (M + K + P)
 # M + K + P = 27
 print('6.: 27')
+
+# 7.
+# esely hogy egyikuk se dob hatost elsore: (5/6)^2
+# ha nem nyert senki az elso korben akkor a jatek resetel,
+# tehat az esely ugyanaz mint 3 sorral ezelott
+# tehat esely = 1/6+25/36*p = 6/11
+print('7.: 6/11')

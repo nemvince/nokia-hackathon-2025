@@ -72,9 +72,12 @@ $$
 Tehát $M + K + P = 27\text{kg}$
 
 ## 7.
+Annak az esélye hogy sem Anna, sem Balázs nem dob hatost az első körben $(\frac{5}{6})^2$.
 
-## 8.
+Amennyiben ez megtörténik, a kör végével a játék "újraindul", tehát az esélyek egyenlőek a kezdeti esélyekkel.
 
-## 9.
-
-## 10.
+Emiatt:
+$$
+\text{esély} = \frac{1}{6}+\frac{25}{36}\times p
+$$
+Tehát $\text{esély} = \frac{6}{11}$.
