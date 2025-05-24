@@ -10,7 +10,9 @@
 
 
 # 1.
-print('1.:')
+# please refer to thinking.md for
+# the explanation
+print('1.: 5')
 
 # 2.
 print('2.:')

@@ -1,6 +1,18 @@
 # Math Quiz
 
 ## 1.
+![](./assets/exercise_1_repr.svg)
+
+Innentől egy Pitagorasz tétellel megoldható.
+
+$$
+(R-1)^2+(R-2)^2=R^2 \\
+R^2-2 \times R+1+R^2-4 \times R+4=R^2 \\
+R^2-6 \times R+5=0 \\
+R_{1,2} = \frac{6 \pm \sqrt{36-20}}{2}\\
+= 1 \text{nem lehet} \\
+= 5
+$$
 
 ## 2.
 
