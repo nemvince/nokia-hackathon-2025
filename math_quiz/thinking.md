@@ -18,6 +18,21 @@ $$
 
 ## 3.
 
+$$\frac{1}{\sqrt{1} + \sqrt{2}} + \frac{1}{\sqrt{2} + \sqrt{3}} + \frac{1}{\sqrt{3} + \sqrt{4}} + \cdots + \frac{1}{\sqrt{99} + \sqrt{100}} = ?$$
+
+Gyöktelenítjük a nevezőket, előtte a nevezőkben felcseréljük a tagokat
+
+$$\frac{1}{\sqrt{2} + \sqrt{1}} + \frac{1}{\sqrt{3} + \sqrt{2}} + \frac{1}{\sqrt{4} + \sqrt{3}} + \cdots + \frac{1}{\sqrt{100} + \sqrt{99}} =$$
+
+$$\frac{\sqrt{2} - \sqrt{1}}{(\sqrt{2} + \sqrt{1})(\sqrt{2} - \sqrt{1})} + \frac{\sqrt{3} - \sqrt{2}}{(\sqrt{3} + \sqrt{2})(\sqrt{3} - \sqrt{2})} + \frac{\sqrt{4} - \sqrt{3}}{(\sqrt{4} + \sqrt{3})(\sqrt{4} - \sqrt{3})} + \cdots + \frac{\sqrt{100} - \sqrt{99}}{(\sqrt{100} + \sqrt{99})(\sqrt{100} - \sqrt{99})}$$
+
+$$\frac{2-1}{1} + \frac{3-2}{1} + \frac{4-3}{1} + \cdots + \frac{100-99}{1}$$
+
+$$(\sqrt{2} - \sqrt{1}) + (\sqrt{3} - \sqrt{2}) + (\sqrt{4} - \sqrt{3}) + \cdots + (\sqrt{100} - \sqrt{99})$$
+
+Mindegyiknek van párja, amik kiejtik egymást, ezért $\sqrt{100} - \sqrt{1} = 10 - 1 = 9$ a végeredmény.
+
+
 ## 4.
 Adott az $(n^2)^n - 2n^n + 1 = 0$ egyenlet.
 
